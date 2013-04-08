@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<settings>
+ <general>
+   <rightToLeft>false</rightToLeft>
+ </general>
+ <theme>
+   <predefined>true</predefined>
+ </theme>
+ <splitter>
+   <strings>
+     <sideShowTooltip>Show side panel</sideShowTooltip>
+     <sideHideTooltip>Hide side panel</sideHideTooltip>
+   </strings>
+ </splitter>
+ <topic>
+   <strings>
+     <notfoundText>Topic not found</notfoundText>
+     <notfoundTitle>Topic not found</notfoundTitle>
+   </strings>
+   <collapsibleSections>
+     <expandAll>
+       <label>Expand All</label>
+     </expandAll>
+     <collapseAll>
+       <label>Collapse All</label>
+     </collapseAll>
+   </collapsibleSections>
+   <spinner>
+     <messageText>Loading...</messageText>
+   </spinner>
+ </topic>
+ <toc>
+   <label>Contents</label>
+ </toc>
+ <index>
+   <label>Index</label>
+   <strings>
+     <filterTooltip>Filter keywords</filterTooltip>
+     <notfound>No keywords found.</notfound>
+     <found>#{count} keyword(s) found.</found>
+     <more>More...</more>
+   </strings>
+ </index>
+ <search>
+   <label>Search</label>
+   <strings>
+     <filterTooltip>Search topics</filterTooltip>
+     <helpMessage>You can use logical operations: #{and}, #{or}, #{not}. Examples: football #{or} hockey, sports #{and} #{not} baseball</helpMessage>
+     <loading>Loading search engine...</loading>
+     <loaderror>Error: Search engine failed to load.</loaderror>
+     <disabled>Search is disabled.</disabled>
+     <notfound>No topics found.</notfound>
+     <found>#{count} topic(s) found.</found>
+     <correcting>Did you mean: #{query}</correcting>
+     <more>More...</more>
+   </strings>
+   <buttons>
+     <go>
+       <label>Search</label>
+     </go>
+     <help>
+       <label>Help</label>
+     </help>
+     <highlight>
+       <label>Highlight search hits</label>
+     </highlight>
+   </buttons>
+   <operators>
+     <and>AND</and>
+     <or>OR</or>
+     <not>NOT</not>
+   </operators>
+ </search>
+ <contextSensitive>
+   <strings>
+     <title>Topics for &quot;#{key}&quot;: &quot;#{value}&quot;</title>
+     <notfound>No topics found.</notfound>
+     <notsupported>The key &quot;#{key}&quot; is not supported.</notsupported>
+   </strings>
+ </contextSensitive>
+ <buttons>
+   <poweredBy>
+     <label>Created&amp;nbsp;with&amp;nbsp;Doc-To-Help&amp;nbsp;®</label>
+   </poweredBy>
+   <prev>
+     <label>Previous</label>
+   </prev>
+   <next>
+     <label>Next</label>
+   </next>
+   <home>
+     <label>Home</label>
+   </home>
+   <print>
+     <label>Print</label>
+   </print>
+   <email>
+     <label>Email</label>
+   </email>
+ </buttons>
+ <accessibility>
+   <toc>
+     <closedBook>Closed book without topic</closedBook>
+     <openBook>Open book without topic</openBook>
+     <closedBookTopic>Closed book with topic</closedBookTopic>
+     <openBookTopic>Open book with topic</openBookTopic>
+     <topic>Topic</topic>
+   </toc>
+   <collapsibleSections>
+     <collapsed>Click to expand</collapsed>
+     <expanded>Click to collapse</expanded>
+   </collapsibleSections>
+   <akLinksMenuHeader>#{count} topics found</akLinksMenuHeader>
+ </accessibility>
+ <pageHeader>
+   <logoImage>images/kaltura_logo_transparent_large4olh.png</logoImage>
+ </pageHeader>
+</settings>

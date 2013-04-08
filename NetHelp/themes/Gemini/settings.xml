@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<settings>
+  <theme>
+    <name>Gemini</name>
+    <predefined>false</predefined>
+    <baseTheme>Tabs</baseTheme>
+    <baseVersion>1.10.5</baseVersion>
+  </theme>
+</settings>

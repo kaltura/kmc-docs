@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html><head><title>Targeting per Viewer</title><link rel="stylesheet" type="text/css" href="../LinksExt/Kaltura_Management_Console_(KMC)_User_Manual_gemini_4OLH.css" />
+<meta name="topicId" content="4f07bbbe-e62d-4104-8a9e-06784f664583" />
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<script src="../js/nethelp.redirector.js" type="text/javascript"></script>
+<link rel="prev" href="targetingwithanadser.htm" /><link rel="next" href="adtargetingviaadplug.htm" />
+<meta name="Generator" content="ComponentOne Doc-To-Help v.2012.2.0.723" />
+<meta name="D2HTheme" content="Gemini_theme" />
+</head>
+<body>
+<h3><span class="Heading3Char"><span style="COLOR: windowtext; FONT-WEIGHT: normal">Targeting per 
+Viewer</span></span></h3>
+<p><span class="BodyTextChar"><span style="COLOR: windowtext">In some cases 
+targeting information is not defined per content item, but per viewer.<br />To 
+support these cases the Kaltura VAST module dynamically pulls metadata from the 
+website via flashvars passed to the player.<br />For example targeting per a 
+specific age group. This example assumes that the hosting site has a user 
+database and would like to further target known users.</span></span><span class="ProcedureChar"><span style="COLOR: windowtext; FONT-SIZE: 12pt"></span></span></p>
+<p style="tab-stops: 36.0pt" class="Procedure"><span style="COLOR: windowtext"><img title="*" border="0" alt="*" src="../ImagesExt/image17_0.png" /></span><span style="COLOR: windowtext; FONT-WEIGHT: normal">  </span><i><span style="COLOR: windowtext"> </span></i><span style="COLOR: windowtext">To 
+target per viewer</span><span style="COLOR: windowtext"></span></p>
+<p style="MARGIN-LEFT: 36pt; tab-stops: 36.0pt" class="MsoListNumberCxSpFirst"><b><span style="COLOR: windowtext">1.   
+</span></b><span style="COLOR: windowtext">Pass the variable (for example, 
+viewer age) from your internal DB to the player via Flashvar.<br /></span><span style="COLOR: windowtext"><img src="../ImagesExt/image17_194.png" alt="" /></span><span style="COLOR: windowtext"></span></p>
+<p style="MARGIN-LEFT: 36pt; tab-stops: 36.0pt" class="MsoListNumberCxSpMiddle"><b><span style="COLOR: windowtext">2.   
+</span></b><span style="COLOR: windowtext">Define the additional parameter in 
+your ad server. <br />For example in OpenX</span><span style="COLOR: windowtext">, 
+set</span><span style="COLOR: windowtext"> the “</span><span style="COLOR: windowtext">viewerAge” parameter </span><span style="COLOR: windowtext">through “Site </span><span style="COLOR: windowtext">- 
+</span><span style="COLOR: windowtext">Variable</span><span style="COLOR: windowtext">”</span><span style="COLOR: windowtext"><img border="0" src="../ImagesExt/image17_195.png" alt="" /></span><span style="COLOR: windowtext"></span></p>
+<p style="MARGIN-LEFT: 36pt; tab-stops: 36.0pt" class="MsoListNumberCxSpLast"><b><span style="COLOR: windowtext">3.   
+</span></b><span style="COLOR: windowtext">Add the flashvar template into the 
+AdTag URL, this template will be populated in runtime with the actual values. 
+<br />The template is 
+FLASHVAR_NAME={configProxy.flashvars.FLASHVAR_NAME</span><span style="COLOR: windowtext"> }</span><span style="COLOR: windowtext">and in the 
+viewerAge example it would be:<br /></span><span style="COLOR: windowtext">viewerAge={configProxy.flashvars.viewerAge}</span><span style="COLOR: windowtext"></span></p><span id="related-topics"></span></body></html>
