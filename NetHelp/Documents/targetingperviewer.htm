@@ -1,34 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
-<html><head><title>Targeting per Viewer</title><link rel="stylesheet" type="text/css" href="../LinksExt/Kaltura_Management_Console_(KMC)_User_Manual_gemini_4OLH.css" />
-<meta name="topicId" content="4f07bbbe-e62d-4104-8a9e-06784f664583" />
+<html><head><title>Targeting per Viewer</title><link rel="stylesheet" type="text/css" href="../LinksExt/Kaltura_Management_Console_(KMC)_User_Manual_Hercules4OLH.css" />
+<meta name="topicId" content="5be24919-5c03-44fc-9357-da3468308dbc" />
 <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
 <script src="../js/nethelp.redirector.js" type="text/javascript"></script>
 <link rel="prev" href="targetingwithanadser.htm" /><link rel="next" href="adtargetingviaadplug.htm" />
 <meta name="Generator" content="ComponentOne Doc-To-Help v.2012.2.0.723" />
-<meta name="D2HTheme" content="Gemini_theme" />
+<meta name="D2HTheme" content="Kaltura_theme" />
 </head>
 <body>
-<h3><span class="Heading3Char"><span style="COLOR: windowtext; FONT-WEIGHT: normal">Targeting per 
+<h3><span class="Heading3Char"><span style="FONT-WEIGHT: normal">Targeting per 
 Viewer</span></span></h3>
-<p><span class="BodyTextChar"><span style="COLOR: windowtext">In some cases 
-targeting information is not defined per content item, but per viewer.<br />To 
-support these cases the Kaltura VAST module dynamically pulls metadata from the 
-website via flashvars passed to the player.<br />For example targeting per a 
-specific age group. This example assumes that the hosting site has a user 
-database and would like to further target known users.</span></span><span class="ProcedureChar"><span style="COLOR: windowtext; FONT-SIZE: 12pt"></span></span></p>
-<p style="tab-stops: 36.0pt" class="Procedure"><span style="COLOR: windowtext"><img title="*" border="0" alt="*" src="../ImagesExt/image17_0.png" /></span><span style="COLOR: windowtext; FONT-WEIGHT: normal">  </span><i><span style="COLOR: windowtext"> </span></i><span style="COLOR: windowtext">To 
-target per viewer</span><span style="COLOR: windowtext"></span></p>
-<p style="MARGIN-LEFT: 36pt; tab-stops: 36.0pt" class="MsoListNumberCxSpFirst"><b><span style="COLOR: windowtext">1.   
-</span></b><span style="COLOR: windowtext">Pass the variable (for example, 
-viewer age) from your internal DB to the player via Flashvar.<br /></span><span style="COLOR: windowtext"><img src="../ImagesExt/image17_194.png" alt="" /></span><span style="COLOR: windowtext"></span></p>
-<p style="MARGIN-LEFT: 36pt; tab-stops: 36.0pt" class="MsoListNumberCxSpMiddle"><b><span style="COLOR: windowtext">2.   
-</span></b><span style="COLOR: windowtext">Define the additional parameter in 
-your ad server. <br />For example in OpenX</span><span style="COLOR: windowtext">, 
-set</span><span style="COLOR: windowtext"> the “</span><span style="COLOR: windowtext">viewerAge” parameter </span><span style="COLOR: windowtext">through “Site </span><span style="COLOR: windowtext">- 
-</span><span style="COLOR: windowtext">Variable</span><span style="COLOR: windowtext">”</span><span style="COLOR: windowtext"><img border="0" src="../ImagesExt/image17_195.png" alt="" /></span><span style="COLOR: windowtext"></span></p>
-<p style="MARGIN-LEFT: 36pt; tab-stops: 36.0pt" class="MsoListNumberCxSpLast"><b><span style="COLOR: windowtext">3.   
-</span></b><span style="COLOR: windowtext">Add the flashvar template into the 
-AdTag URL, this template will be populated in runtime with the actual values. 
-<br />The template is 
-FLASHVAR_NAME={configProxy.flashvars.FLASHVAR_NAME</span><span style="COLOR: windowtext"> }</span><span style="COLOR: windowtext">and in the 
-viewerAge example it would be:<br /></span><span style="COLOR: windowtext">viewerAge={configProxy.flashvars.viewerAge}</span><span style="COLOR: windowtext"></span></p><span id="related-topics"></span></body></html>
+<p class="MsoBodyText"><span class="BodyTextChar">In some cases targeting 
+information is not defined per content item, but per viewer. To support these 
+cases the Kaltura VAST module dynamically pulls metadata from the website via 
+flashvars passed to the player. For example targeting per a specific age group. 
+This example assumes that the hosting site has a user database and would like to 
+further target known users.</span><span class="ProcedureChar"><span style="FONT-SIZE: 12pt"></span></span></p>
+<p class="Procedure" style="tab-stops: 36.0pt"><img title="*" border="0" alt="*" src="../ImagesExt/image18_0.png" /><span style="FONT-WEIGHT: normal">  
+</span>To target per viewer</p>
+<p class="MsoListNumberCxSpFirst" style="MARGIN-LEFT: 36pt; tab-stops: 36.0pt"><b>1.   </b>Pass the 
+variable (for example, viewer age) from your internal DB to the player via 
+Flashvar.<br /><img src="../ImagesExt/image18_196.png" alt="" /></p>
+<p class="MsoListNumberCxSpLast" style="MARGIN-LEFT: 36pt; tab-stops: 36.0pt"><b>2.   </b>Define the 
+additional parameter in your ad server. </p>
+<p class="MsoListContinue">For example in OpenX, set the “viewerAge” parameter 
+through “Site - Variable”<img border="0" src="../ImagesExt/image18_197.png" alt="" /></p>
+<p class="MsoListNumber" style="MARGIN-LEFT: 18pt; tab-stops: 36.0pt"><b>3.   </b>Add the 
+flashvar template into the AdTag URL, this template will be populated in runtime 
+with the actual values. </p>
+<p class="MsoListContinue">The template is 
+FLASHVAR_NAME={configProxy.flashvars.FLASHVAR_NAME }and in the viewerAge example 
+it would be: viewerAge={configProxy.flashvars.viewerAge}</p><span id="related-topics"></span></body></html>

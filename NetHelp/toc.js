@@ -79,6 +79,11 @@
                 "tooltip": "Import from Web"
             },
             {
+                "url": "Documents/ingestionforwebexrec.htm",
+                "title": "Ingestion for Webex Recording Files",
+                "tooltip": "Ingestion for Webex Recording Files"
+            },
+            {
                 "url": "Documents/prepareentry.htm",
                 "title": "Prepare Entry",
                 "tooltip": "Prepare Entry",
@@ -102,8 +107,8 @@
                 "items": [
                     {
                         "url": "Documents/keybenefitsandfuncti.htm",
-                        "title": "Key Benefits and Functionality",
-                        "tooltip": "Key Benefits and Functionality"
+                        "title": "Key Benefits and Functionality of Draft Entries",
+                        "tooltip": "Key Benefits and Functionality of Draft Entries"
                     },
                     {
                         "url": "Documents/hostingvideosatyourp.htm",
@@ -490,7 +495,6 @@
         ]
     },
     {
-        "url": "Documents/managingmetadata.htm",
         "title": "Managing Metadata",
         "tooltip": "Managing Metadata",
         "items": [
@@ -596,7 +600,14 @@
             {
                 "url": "Documents/searchingthroughentr.htm",
                 "title": "Searching Through Entries",
-                "tooltip": "Searching Through Entries"
+                "tooltip": "Searching Through Entries",
+                "items": [
+                    {
+                        "url": "Documents/entriessearchrules.htm",
+                        "title": "Entries Search Rules",
+                        "tooltip": "Entries Search Rules"
+                    }
+                ]
             },
             {
                 "url": "Documents/filteringcontentinth.htm",
@@ -660,7 +671,6 @@
         ]
     },
     {
-        "url": "Documents/managingaccesscontro.htm",
         "title": "Managing Access Control Profiles",
         "tooltip": "Managing Access Control Profiles",
         "items": [
@@ -939,7 +949,6 @@
         ]
     },
     {
-        "url": "Documents/kmcusersandroles.htm",
         "title": "KMC Users and Roles",
         "tooltip": "KMC Users and Roles",
         "items": [
@@ -983,7 +992,6 @@
         ]
     },
     {
-        "url": "Documents/moderationandeditori.htm",
         "title": "Moderation and Editorial Workflows",
         "tooltip": "Moderation and Editorial Workflows",
         "items": [
@@ -1004,20 +1012,20 @@
                     },
                     {
                         "url": "Documents/rejectingcontentusin.htm",
-                        "title": "Rejecting Content using the Moderation Tab",
-                        "tooltip": "Rejecting Content using the Moderation Tab"
+                        "title": "Rejecting Content Using the Moderation Tab",
+                        "tooltip": "Rejecting Content Using the Moderation Tab"
                     }
                 ]
             },
             {
                 "url": "Documents/approvingcontentusin.htm",
-                "title": "Approving Content using the Moderation tab",
-                "tooltip": "Approving Content using the Moderation tab"
+                "title": "Approving Content Using the Moderation tab",
+                "tooltip": "Approving Content Using the Moderation tab"
             },
             {
                 "url": "Documents/banningusersusingthe.htm",
-                "title": "Banning Users using the Moderation tab",
-                "tooltip": "Banning Users using the Moderation tab"
+                "title": "Banning Users Using the Moderation tab",
+                "tooltip": "Banning Users Using the Moderation tab"
             }
         ]
     },
@@ -1069,6 +1077,18 @@
                         "url": "Documents/captionsoptions.htm",
                         "title": "Captions Options",
                         "tooltip": "Captions Options"
+                    }
+                ]
+            },
+            {
+                "url": "Documents/addinganaudiodescrip.htm",
+                "title": "Adding an Audio Description File to an Entry",
+                "tooltip": "Adding an Audio Description File to an Entry",
+                "items": [
+                    {
+                        "url": "Documents/playbacktheaudiotrac.htm",
+                        "title": "Playback the Audio Track in a 508 Player",
+                        "tooltip": "Playback the Audio Track in a 508 Player"
                     }
                 ]
             }
@@ -1138,7 +1158,6 @@
         ]
     },
     {
-        "url": "Documents/contentauthoringtool.htm",
         "title": "Content Authoring Tools",
         "tooltip": "Content Authoring Tools",
         "items": [
@@ -1254,7 +1273,6 @@
         ]
     },
     {
-        "url": "Documents/publishingtoyoursite.htm",
         "title": "Publishing to Your Site",
         "tooltip": "Publishing to Your Site",
         "items": [
@@ -1526,7 +1544,6 @@
         ]
     },
     {
-        "url": "Documents/advertisingandadnetw.htm",
         "title": "Advertising and Ad Networks",
         "tooltip": "Advertising and Ad Networks",
         "items": [
@@ -1614,17 +1631,25 @@
                     {
                         "url": "Documents/tremormedia.htm",
                         "title": "Tremor Media",
-                        "tooltip": "Tremor Media"
-                    },
-                    {
-                        "url": "Documents/tremormediaaddedfunc.htm",
-                        "title": "Tremor Media Added Functionality",
-                        "tooltip": "Tremor Media Added Functionality"
+                        "tooltip": "Tremor Media",
+                        "items": [
+                            {
+                                "url": "Documents/tremormediaaddedfunc.htm",
+                                "window": "proc",
+                                "title": "Tremor Media Added Functionality",
+                                "tooltip": "Tremor Media Added Functionality"
+                            }
+                        ]
                     },
                     {
                         "url": "Documents/adaptv.htm",
                         "title": "AdapTV",
                         "tooltip": "AdapTV"
+                    },
+                    {
+                        "url": "Documents/doubleclick.htm",
+                        "title": "DoubleClick",
+                        "tooltip": "DoubleClick"
                     }
                 ]
             }
@@ -1686,9 +1711,19 @@
             },
             {
                 "url": "Documents/howtolocatetheadtagu.htm",
-                "title": "How to Locate the Ad Tag URL",
-                "tooltip": "How to Locate the Ad Tag URL",
+                "title": "How to Locate the AdTag URL",
+                "tooltip": "How to Locate the AdTag URL",
                 "items": [
+                    {
+                        "url": "Documents/doubleclickdartforpu.htm",
+                        "title": "DoubleClick - Dart For Publisher (DFP)",
+                        "tooltip": "DoubleClick - Dart For Publisher (DFP)"
+                    },
+                    {
+                        "url": "Documents/openx.htm",
+                        "title": "OpenX",
+                        "tooltip": "OpenX"
+                    },
                     {
                         "url": "Documents/adaptvviavast.htm",
                         "title": "AdapTV (via VAST)",
@@ -1894,7 +1929,6 @@
         ]
     },
     {
-        "url": "Documents/accountinformation.htm",
         "title": "Account Information",
         "tooltip": "Account Information",
         "items": [

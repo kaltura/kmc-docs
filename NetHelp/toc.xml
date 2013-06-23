@@ -59,6 +59,10 @@
       <title><![CDATA[Import from Web]]></title>
       <tooltip><![CDATA[Import from Web]]></tooltip>
     </item>
+    <item url="Documents/ingestionforwebexrec.htm">
+      <title><![CDATA[Ingestion for Webex Recording Files]]></title>
+      <tooltip><![CDATA[Ingestion for Webex Recording Files]]></tooltip>
+    </item>
     <item url="Documents/prepareentry.htm">
       <title><![CDATA[Prepare Entry]]></title>
       <tooltip><![CDATA[Prepare Entry]]></tooltip>
@@ -75,8 +79,8 @@
       <title><![CDATA[Creating Draft Entries]]></title>
       <tooltip><![CDATA[Creating Draft Entries]]></tooltip>
       <item url="Documents/keybenefitsandfuncti.htm">
-        <title><![CDATA[Key Benefits and Functionality]]></title>
-        <tooltip><![CDATA[Key Benefits and Functionality]]></tooltip>
+        <title><![CDATA[Key Benefits and Functionality of Draft Entries]]></title>
+        <tooltip><![CDATA[Key Benefits and Functionality of Draft Entries]]></tooltip>
       </item>
       <item url="Documents/hostingvideosatyourp.htm">
         <title><![CDATA[Hosting Videos at your Preferred Location and Linking to Kaltura]]></title>
@@ -352,7 +356,7 @@
       <tooltip><![CDATA[Configuring the Player Style]]></tooltip>
     </item>
   </item>
-  <item url="Documents/managingmetadata.htm">
+  <item>
     <title><![CDATA[Managing Metadata]]></title>
     <tooltip><![CDATA[Managing Metadata]]></tooltip>
     <item url="Documents/entrymetadata.htm">
@@ -426,6 +430,10 @@
     <item url="Documents/searchingthroughentr.htm">
       <title><![CDATA[Searching Through Entries]]></title>
       <tooltip><![CDATA[Searching Through Entries]]></tooltip>
+      <item url="Documents/entriessearchrules.htm">
+        <title><![CDATA[Entries Search Rules]]></title>
+        <tooltip><![CDATA[Entries Search Rules]]></tooltip>
+      </item>
     </item>
     <item url="Documents/filteringcontentinth.htm">
       <title><![CDATA[Filtering Content in the Entries Table]]></title>
@@ -472,7 +480,7 @@
       <tooltip><![CDATA[Searching Playlists]]></tooltip>
     </item>
   </item>
-  <item url="Documents/managingaccesscontro.htm">
+  <item>
     <title><![CDATA[Managing Access Control Profiles]]></title>
     <tooltip><![CDATA[Managing Access Control Profiles]]></tooltip>
     <item url="Documents/accesscontrolprofile.htm">
@@ -668,7 +676,7 @@
       </item>
     </item>
   </item>
-  <item url="Documents/kmcusersandroles.htm">
+  <item>
     <title><![CDATA[KMC Users and Roles]]></title>
     <tooltip><![CDATA[KMC Users and Roles]]></tooltip>
     <item url="Documents/rolesandpermissions.htm">
@@ -700,7 +708,7 @@
       </item>
     </item>
   </item>
-  <item url="Documents/moderationandeditori.htm">
+  <item>
     <title><![CDATA[Moderation and Editorial Workflows]]></title>
     <tooltip><![CDATA[Moderation and Editorial Workflows]]></tooltip>
     <item url="Documents/contentmoderationwor.htm">
@@ -715,17 +723,17 @@
         <tooltip><![CDATA[Previewing Content using the Moderation Tab]]></tooltip>
       </item>
       <item url="Documents/rejectingcontentusin.htm">
-        <title><![CDATA[Rejecting Content using the Moderation Tab]]></title>
-        <tooltip><![CDATA[Rejecting Content using the Moderation Tab]]></tooltip>
+        <title><![CDATA[Rejecting Content Using the Moderation Tab]]></title>
+        <tooltip><![CDATA[Rejecting Content Using the Moderation Tab]]></tooltip>
       </item>
     </item>
     <item url="Documents/approvingcontentusin.htm">
-      <title><![CDATA[Approving Content using the Moderation tab]]></title>
-      <tooltip><![CDATA[Approving Content using the Moderation tab]]></tooltip>
+      <title><![CDATA[Approving Content Using the Moderation tab]]></title>
+      <tooltip><![CDATA[Approving Content Using the Moderation tab]]></tooltip>
     </item>
     <item url="Documents/banningusersusingthe.htm">
-      <title><![CDATA[Banning Users using the Moderation tab]]></title>
-      <tooltip><![CDATA[Banning Users using the Moderation tab]]></tooltip>
+      <title><![CDATA[Banning Users Using the Moderation tab]]></title>
+      <tooltip><![CDATA[Banning Users Using the Moderation tab]]></tooltip>
     </item>
   </item>
   <item url="Documents/usingsubtitlesandcap.htm">
@@ -761,6 +769,14 @@
       <item url="Documents/captionsoptions.htm">
         <title><![CDATA[Captions Options]]></title>
         <tooltip><![CDATA[Captions Options]]></tooltip>
+      </item>
+    </item>
+    <item url="Documents/addinganaudiodescrip.htm">
+      <title><![CDATA[Adding an Audio Description File to an Entry]]></title>
+      <tooltip><![CDATA[Adding an Audio Description File to an Entry]]></tooltip>
+      <item url="Documents/playbacktheaudiotrac.htm">
+        <title><![CDATA[Playback the Audio Track in a 508 Player]]></title>
+        <tooltip><![CDATA[Playback the Audio Track in a 508 Player]]></tooltip>
       </item>
     </item>
   </item>
@@ -808,7 +824,7 @@
       </item>
     </item>
   </item>
-  <item url="Documents/contentauthoringtool.htm">
+  <item>
     <title><![CDATA[Content Authoring Tools]]></title>
     <tooltip><![CDATA[Content Authoring Tools]]></tooltip>
     <item url="Documents/thecontenttab.htm">
@@ -896,7 +912,7 @@
       <tooltip><![CDATA[Choosing a Thumbnail for your Video]]></tooltip>
     </item>
   </item>
-  <item url="Documents/publishingtoyoursite.htm">
+  <item>
     <title><![CDATA[Publishing to Your Site]]></title>
     <tooltip><![CDATA[Publishing to Your Site]]></tooltip>
     <item url="Documents/embeddingaplayerwith.htm">
@@ -1088,7 +1104,7 @@
       </item>
     </item>
   </item>
-  <item url="Documents/advertisingandadnetw.htm">
+  <item>
     <title><![CDATA[Advertising and Ad Networks]]></title>
     <tooltip><![CDATA[Advertising and Ad Networks]]></tooltip>
     <item url="Documents/overviewofadvertisin.htm">
@@ -1153,14 +1169,18 @@
       <item url="Documents/tremormedia.htm">
         <title><![CDATA[Tremor Media]]></title>
         <tooltip><![CDATA[Tremor Media]]></tooltip>
-      </item>
-      <item url="Documents/tremormediaaddedfunc.htm">
-        <title><![CDATA[Tremor Media Added Functionality]]></title>
-        <tooltip><![CDATA[Tremor Media Added Functionality]]></tooltip>
+        <item url="Documents/tremormediaaddedfunc.htm" window="proc">
+          <title><![CDATA[Tremor Media Added Functionality]]></title>
+          <tooltip><![CDATA[Tremor Media Added Functionality]]></tooltip>
+        </item>
       </item>
       <item url="Documents/adaptv.htm">
         <title><![CDATA[AdapTV]]></title>
         <tooltip><![CDATA[AdapTV]]></tooltip>
+      </item>
+      <item url="Documents/doubleclick.htm">
+        <title><![CDATA[DoubleClick]]></title>
+        <tooltip><![CDATA[DoubleClick]]></tooltip>
       </item>
     </item>
   </item>
@@ -1204,8 +1224,16 @@
       <tooltip><![CDATA[Advertising for Mobile Devices]]></tooltip>
     </item>
     <item url="Documents/howtolocatetheadtagu.htm">
-      <title><![CDATA[How to Locate the Ad Tag URL]]></title>
-      <tooltip><![CDATA[How to Locate the Ad Tag URL]]></tooltip>
+      <title><![CDATA[How to Locate the AdTag URL]]></title>
+      <tooltip><![CDATA[How to Locate the AdTag URL]]></tooltip>
+      <item url="Documents/doubleclickdartforpu.htm">
+        <title><![CDATA[DoubleClick - Dart For Publisher (DFP)]]></title>
+        <tooltip><![CDATA[DoubleClick - Dart For Publisher (DFP)]]></tooltip>
+      </item>
+      <item url="Documents/openx.htm">
+        <title><![CDATA[OpenX]]></title>
+        <tooltip><![CDATA[OpenX]]></tooltip>
+      </item>
       <item url="Documents/adaptvviavast.htm">
         <title><![CDATA[AdapTV (via VAST)]]></title>
         <tooltip><![CDATA[AdapTV (via VAST)]]></tooltip>
@@ -1356,7 +1384,7 @@
       </item>
     </item>
   </item>
-  <item url="Documents/accountinformation.htm">
+  <item>
     <title><![CDATA[Account Information]]></title>
     <tooltip><![CDATA[Account Information]]></tooltip>
     <item url="Documents/accountsettings.htm">
