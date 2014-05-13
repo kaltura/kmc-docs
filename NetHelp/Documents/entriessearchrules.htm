@@ -1,72 +1,78 @@
 <?xml version="1.0" encoding="utf-8"?>
-<html><head><title>Entries Search Rules</title><link rel="stylesheet" type="text/css" href="../LinksExt/Kaltura_Management_Console_(KMC)_User_Manual_Hercules4OLH.css" />
-<meta name="topicId" content="65a702b5-e31a-46fc-a128-ac3cffa9f8dd" />
-<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml"><head><title>Entries Search Rules</title>
+<meta charset="utf-8" /><link rel="stylesheet" type="text/css" href="../LinksExt/Kaltura_Management_Console_(KMC)_User_Manual_Iris_final4.css" />
 <script src="../js/nethelp.redirector.js" type="text/javascript"></script>
-<link rel="prev" href="searchingthroughentr.htm" /><link rel="next" href="filteringcontentinth.htm" />
-<meta name="Generator" content="ComponentOne Doc-To-Help v.2012.2.0.723" />
-<meta name="D2HTheme" content="Kaltura_theme" />
+<link rel="prev" href="searchingthroughentries.htm" /><link rel="next" href="filteringcontentintheentriestable.htm" />
+<meta name="Generator" content="ComponentOne Doc-To-Help v.2013.1.0.832" />
 </head>
-<body>
-<h3>Entries Search Rules</h3>
-<p class="MsoBodyText">When searching for entries from the KMC search box in the 
-Entries page and/or from the search box within the Playlist window, the 
-following rules apply: </p>
-<p class="MsoListBullet" style="MARGIN-LEFT: 18pt; TEXT-INDENT: -18.6pt; tab-stops: 37.7pt"><span style="COLOR: #666560"><span style="FONT-FAMILY: Verdana">•</span><span style="FONT-FAMILY: Symbol; VISIBILITY: hidden">      
-</span></span>The Kaltura search engine will match the search term within the 
-KMC search box against the following <a name="Entry_attributes" id="Entry_attributes">entry 
-attributes</a>:</p>
-<p class="MsoListContinue">Entry Name, Entry ID , Entry Tags, Entry’s Description, 
-Entry Reference ID, Entry owner ID, Entry ID of origin entry for clips created 
-in Kaltura, any Entry custom data fields of type: text that was set to be 
-searchable. </p>
-<p class="MsoListBulletCxSpFirst" style="MARGIN-LEFT: 37.7pt; TEXT-INDENT: -18.6pt; tab-stops: 37.7pt"><span style="COLOR: #666560"><span style="FONT-FAMILY: Verdana">•</span><span style="FONT-FAMILY: Symbol; VISIBILITY: hidden">      
-</span></span>Search criteria may include alphanumeric  as well as special 
-characters such as: `, ~, !, @, #, $, %, ^, &amp;, *, (, ), -, _, =, +, [, ], {, 
-}, ;, :, ', \, |, /, ?, &lt;, &gt;</p>
-<p class="MsoListBulletCxSpMiddle" style="MARGIN-LEFT: 37.7pt; TEXT-INDENT: -18.6pt; tab-stops: 37.7pt"><span style="COLOR: #666560"><span style="FONT-FAMILY: Verdana">•</span><span style="FONT-FAMILY: Symbol; VISIBILITY: hidden">      
-</span></span>The <b>space character</b> is treated as an AND search operand. 
-For example, searching for” hello world” will result with all entries that 
-include both the word hello and the word <b>world</b> in one of the searchable 
-entry attributes.</p>
-<p class="MsoListBulletCxSpMiddle" style="MARGIN-LEFT: 37.7pt; TEXT-INDENT: -18.6pt; tab-stops: 37.7pt"><span style="COLOR: #666560"><span style="FONT-FAMILY: Verdana">•</span><span style="FONT-FAMILY: Symbol; VISIBILITY: hidden">      
-</span></span>The<b> comma character</b> is treated as an OR search operand. For 
-example, searching for <b>hello, world</b> will result with all entries that 
-include either the word <b>hello</b>, or the word <b>world</b> in one of the 
-searchable entry attributes.</p>
-<p class="MsoListBulletCxSpMiddle" style="MARGIN-LEFT: 37.7pt; TEXT-INDENT: -18.6pt; tab-stops: 37.7pt"><span style="COLOR: #666560"><span style="FONT-FAMILY: Verdana">•</span><span style="FONT-FAMILY: Symbol; VISIBILITY: hidden">      
-</span></span>The <b>! character</b> is treated as an AND NOT search operand. 
-For example, searching for <b>hello ! world</b> should result with all entries 
-that include the word hello but do not include the word world. The ! at the 
-beginning of the search criteria is not supported within this AND NOT operant 
-context.  When searching for actual words that start/end with the ! 
-character, the ! character should be escapes using a backslash. For example, if 
-you want to search for entries that include the word<b> !hello</b> or 
-<b>hello!</b>, enter the following terms within the KMC search box: <b>\!hello 
-or hello\!</b></p>
-<p class="MsoListBulletCxSpLast" style="MARGIN-LEFT: 37.7pt; TEXT-INDENT: -18.6pt; tab-stops: 37.7pt"><span style="COLOR: #666560"><span style="FONT-FAMILY: Verdana">•</span><span style="FONT-FAMILY: Symbol; VISIBILITY: hidden">      
-</span></span>The<b> “” characters</b> are treated as an EXACT MATCH search 
-operand. For example, searching for <b>hello world</b> will result with all 
-entries that include the exact <b>hello world </b>phrase in one of the 
-searchable entry attributes.</p>
-<p class="Procedure" style="tab-stops: 36.0pt"><img title="*" border="0" alt="*" src="../ImagesExt/image18_0.png" /><span style="FONT-WEIGHT: normal">  
-</span>To search through entries  </p>
-<p class="MsoListNumberCxSpFirst" style="MARGIN-LEFT: 36pt; tab-stops: 36.0pt"><b>1.   </b>Go to the 
-Content tab and select the Entries tab.</p>
-<p class="MsoListNumberCxSpLast" style="MARGIN-LEFT: 36pt; tab-stops: 36.0pt"><b>2.   </b>Enter your 
-search criteria and click the magnifying icon on the right, or press 
-Enter.  </p>
-<p class="MsoListContinue">The search is applied on the entry or the<a class="topic-link" href="entriessearchrules.htm#Entry_attributes"> entry 
-attributes</a> selected. </p>
-<p class="MsoListContinue">You can search for content and then create playlists 
-containing the filtered content. </p>
-<p class="Procedure" style="tab-stops: 36.0pt"><img title="*" border="0" alt="*" src="../ImagesExt/image18_0.png" /><span style="FONT-WEIGHT: normal">  
-</span>To create playlists based on filtered content</p>
-<p class="MsoListNumberCxSpFirst" style="MARGIN-LEFT: 36pt; tab-stops: 36.0pt"><b>1.   </b>Search for 
-content based on a filter.</p>
-<p class="MsoListNumberCxSpLast" style="MARGIN-LEFT: 36pt; tab-stops: 36.0pt"><b>2.   </b>Click Add 
-Playlist to create a playlist.</p>
-<p class="Procedure" style="tab-stops: 36.0pt"><img title="*" border="0" alt="*" src="../ImagesExt/image18_0.png" /><span style="FONT-WEIGHT: normal">  
-</span>To clear the search box</p>
-<p class="MsoListBullet" style="MARGIN-LEFT: 18pt; TEXT-INDENT: -18.6pt; tab-stops: 37.7pt"><span style="COLOR: #666560"><span style="FONT-FAMILY: Verdana">•</span><span style="FONT-FAMILY: Symbol; VISIBILITY: hidden">      
-</span></span>Click the X icon on the right.</p><span id="related-topics"></span></body></html>
+<body data-c1-topic-id="da217b57-46b7-4261-8072-5a923b7236fb">
+<h3><span style="COLOR: windowtext">Entries Search Rules</span><span style="COLOR: windowtext"></span></h3>
+<p class="MsoBodyText"><span style="COLOR: windowtext">When searching for entries 
+from the KMC search box in the Entries page and/or from the search box within 
+the Playlist window, the following rules apply: </span><span style="COLOR: windowtext"></span></p>
+<p class="MsoListBullet" style="MARGIN-LEFT: 18pt; TEXT-INDENT: -17.85pt; tab-stops: 37.7pt"><span style="COLOR: windowtext"><span style="FONT-FAMILY: Verdana">•</span><span style="FONT-FAMILY: Symbol; VISIBILITY: hidden">      
+</span></span><span style="COLOR: windowtext">The Kaltura search engine will 
+match the search term within the KMC search box against the following entry 
+attributes<a name="Entry_attributes" id="Entry_attributes"></a>:</span><span style="COLOR: windowtext"></span></p>
+<p class="MsoListContinue"><span style="COLOR: windowtext">Entry Name, Entry ID , 
+Entry Tags, Entry’s Description, Entry Reference ID, Entry owner ID, Entry ID of 
+origin entry for clips created in Kaltura, any Entry custom data fields of type: 
+text that was set to be searchable. </span><span style="COLOR: windowtext"></span></p>
+<p class="MsoListBulletCxSpFirst" style="MARGIN-LEFT: 37.7pt; TEXT-INDENT: -17.85pt; tab-stops: 37.7pt"><span style="COLOR: windowtext"><span style="FONT-FAMILY: Verdana">•</span><span style="FONT-FAMILY: Symbol; VISIBILITY: hidden">      
+</span></span><span style="COLOR: windowtext">Search criteria may include 
+alphanumeric  as well as special characters such as: `, ~, !, @, #, $, %, 
+^, &amp;, *, (, ), -, _, =, +, [, ], {, }, ;, :, ', \, |, /, ?, &lt;, 
+&gt;</span><span style="COLOR: windowtext"></span></p>
+<p class="MsoListBulletCxSpMiddle" style="MARGIN-LEFT: 37.7pt; TEXT-INDENT: -17.85pt; tab-stops: 37.7pt"><span style="COLOR: windowtext"><span style="FONT-FAMILY: Verdana">•</span><span style="FONT-FAMILY: Symbol; VISIBILITY: hidden">      
+</span></span><span style="COLOR: windowtext">The </span><b><span style="COLOR: windowtext">space character</span></b><span style="COLOR: windowtext"> is treated as an AND search operand. For example, 
+searching for” hello world” will result with all entries that include both the 
+word </span><span style="COLOR: windowtext">hello</span><span style="COLOR: windowtext"> and the word </span><b><span style="COLOR: windowtext">world</span></b><span style="COLOR: windowtext"> in 
+one of the searchable entry attributes.</span><span style="COLOR: windowtext"></span></p>
+<p class="MsoListBulletCxSpMiddle" style="MARGIN-LEFT: 37.7pt; TEXT-INDENT: -17.85pt; tab-stops: 37.7pt"><span style="COLOR: windowtext"><span style="FONT-FAMILY: Verdana">•</span><span style="FONT-FAMILY: Symbol; VISIBILITY: hidden">      
+</span></span><span style="COLOR: windowtext">The</span><b><span style="COLOR: windowtext"> comma character</span></b><span style="COLOR: windowtext"> is treated as an OR search operand. For example, 
+searching for </span><b><span style="COLOR: windowtext">hello</span></b><b><span style="COLOR: windowtext">,</span></b><b><span style="COLOR: windowtext"> 
+world</span></b><span style="COLOR: windowtext"> will result with all entries 
+that include either the word </span><b><span style="COLOR: windowtext">hello</span></b><span style="COLOR: windowtext">, or 
+the word </span><b><span style="COLOR: windowtext">world</span></b><span style="COLOR: windowtext"> in one of the searchable entry 
+attributes.</span><span style="COLOR: windowtext"></span></p>
+<p class="MsoListBulletCxSpMiddle" style="MARGIN-LEFT: 37.7pt; TEXT-INDENT: -17.85pt; tab-stops: 37.7pt"><span style="COLOR: windowtext"><span style="FONT-FAMILY: Verdana">•</span><span style="FONT-FAMILY: Symbol; VISIBILITY: hidden">      
+</span></span><span style="COLOR: windowtext">The </span><b><span style="COLOR: windowtext">! character</span></b><span style="COLOR: windowtext"> 
+is treated as an AND NOT search operand. For example, searching for 
+</span><b><span style="COLOR: windowtext">hello ! world</span></b><span style="COLOR: windowtext"> should result with all entries that include the word 
+hello but do not include the word world. The ! at the beginning of the search 
+criteria is not supported within this AND NOT operant context.  When 
+searching for actual words that start/end with the ! character, the ! character 
+should be escapes using a backslash. For example, if you want to search for 
+entries that include the word</span><b><span style="COLOR: windowtext"> 
+!hello</span></b><span style="COLOR: windowtext"> or </span><b><span style="COLOR: windowtext">hello!</span></b><span style="COLOR: windowtext">, 
+enter the following terms within the KMC search box: </span><b><span style="COLOR: windowtext">\!hello or hello\!</span></b><span style="COLOR: windowtext"></span></p>
+<p class="MsoListBulletCxSpLast" style="MARGIN-LEFT: 37.7pt; TEXT-INDENT: -17.85pt; tab-stops: 37.7pt"><span style="COLOR: windowtext"><span style="FONT-FAMILY: Verdana">•</span><span style="FONT-FAMILY: Symbol; VISIBILITY: hidden">      
+</span></span><span style="COLOR: windowtext">The</span><b><span style="COLOR: windowtext"> “” characters</span></b><span style="COLOR: windowtext"> are treated as an EXACT MATCH search operand. For 
+example, searching for </span><b><span style="COLOR: windowtext">hello 
+world</span></b><span style="COLOR: windowtext"> will result with all entries 
+that include the exact </span><b><span style="COLOR: windowtext">hello world 
+</span></b><span style="COLOR: windowtext">phrase in one of the searchable entry 
+attributes.</span><span style="COLOR: windowtext"></span></p>
+<p class="Procedure" style="tab-stops: 36.0pt"><span style="COLOR: windowtext"><img title="*" border="0" alt="*" src="../ImagesExt/image18_82.png" /></span><span style="FONT-WEIGHT: normal; COLOR: windowtext"> </span><span style="COLOR: windowtext">To search </span><span style="COLOR: windowtext">through entries</span><span style="COLOR: windowtext">  </span><span style="COLOR: windowtext"></span></p>
+<p class="MsoListNumberCxSpFirst" style="MARGIN-LEFT: 36pt; tab-stops: 36.0pt"><b><span style="COLOR: black">1.  </span></b><span style="COLOR: windowtext">Go to 
+the Content tab and select the Entries tab.</span><span style="COLOR: windowtext"></span></p>
+<p class="MsoListNumberCxSpLast" style="MARGIN-LEFT: 36pt; tab-stops: 36.0pt"><b><span style="COLOR: black">2.  </span></b><span style="COLOR: windowtext">Enter 
+your search criteria and click the magnifying icon on the right, or press 
+Enter.  </span><span style="COLOR: windowtext"></span></p>
+<p class="MsoListContinue"><span style="COLOR: windowtext">The search is applied 
+on the entry or the</span><span style="COLOR: windowtext"><a class="topic-link" href="entriessearchrules.htm#Entry_attributes"> entry attributes</a></span><span style="COLOR: windowtext"> selected.</span><span style="COLOR: windowtext"> 
+</span><span style="COLOR: windowtext"></span></p>
+<p class="MsoListContinue"><span style="COLOR: windowtext">Yo</span><span style="COLOR: windowtext">u can search for content and </span><span style="COLOR: windowtext">then </span><span style="COLOR: windowtext">create 
+playlists</span><span style="COLOR: windowtext"> containing the filtered 
+content</span><span style="COLOR: windowtext">. </span><span style="COLOR: windowtext"></span></p>
+<p class="Procedure" style="tab-stops: 36.0pt"><span style="COLOR: windowtext"><img title="*" border="0" alt="*" src="../ImagesExt/image18_82.png" /></span><span style="FONT-WEIGHT: normal; COLOR: windowtext"> </span><span style="COLOR: windowtext">To create playlists based on filtered 
+content</span><span style="COLOR: windowtext"></span></p>
+<p class="MsoListNumberCxSpFirst" style="MARGIN-LEFT: 36pt; tab-stops: 36.0pt"><b><span style="COLOR: black">1.  </span></b><span style="COLOR: windowtext">Search 
+for content based on a filter.</span><span style="COLOR: windowtext"></span></p>
+<p class="MsoListNumberCxSpLast" style="MARGIN-LEFT: 36pt; tab-stops: 36.0pt"><b><span style="COLOR: black">2.  </span></b><span style="COLOR: windowtext">Cli</span><span style="COLOR: windowtext">ck Add 
+Playlist to create a </span><span style="COLOR: windowtext">playlist.</span><span style="COLOR: windowtext"></span></p>
+<p class="Procedure" style="tab-stops: 36.0pt"><span style="COLOR: windowtext"><img title="*" border="0" alt="*" src="../ImagesExt/image18_82.png" /></span><span style="FONT-WEIGHT: normal; COLOR: windowtext"> </span><span style="COLOR: windowtext">To </span><span style="COLOR: windowtext">c</span><span style="COLOR: windowtext">lear the 
+</span><span style="COLOR: windowtext">search</span><span style="COLOR: windowtext"> box</span><span style="COLOR: windowtext"></span></p>
+<p class="MsoListBullet" style="MARGIN-LEFT: 18pt; TEXT-INDENT: -17.85pt; tab-stops: 37.7pt"><span style="COLOR: windowtext"><span style="FONT-FAMILY: Verdana">•</span><span style="FONT-FAMILY: Symbol; VISIBILITY: hidden">      
+</span></span><span style="COLOR: windowtext">Click the X icon on the 
+right.</span><span style="COLOR: windowtext"></span></p><span id="related-topics"></span></body></html>

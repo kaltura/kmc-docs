@@ -1,1 +1,1 @@
-nethelpRedirect('default.htm');
+nethelpRedirect('index.html');

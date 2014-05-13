@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml"><head><title>Searching Through Categories</title>
+<meta charset="utf-8" /><link rel="stylesheet" type="text/css" href="../LinksExt/Kaltura_Management_Console_(KMC)_User_Manual_Iris_final4.css" />
+<script src="../js/nethelp.redirector.js" type="text/javascript"></script>
+<link rel="prev" href="entriestablefilterindications.htm" /><link rel="next" href="filteringcategoriesinthecategoriestable.htm" />
+<meta name="Generator" content="ComponentOne Doc-To-Help v.2013.1.0.832" />
+</head>
+<body data-c1-topic-id="f8564518-8acc-4826-a393-fd2c705631f8">
+<h2><a name="_Searching_Through_Categories" id="_Searching_Through_Categories"></a><span style="COLOR: windowtext">Searching Through Categories</span><span style="COLOR: windowtext"></span></h2>
+<p class="MsoBodyText"><span style="COLOR: windowtext">When managing your 
+categories, the search box in the Categories page enables you to search for 
+specific categories or category attributes that exist in your account. 
+</span><span style="COLOR: windowtext"></span></p>
+<p class="MsoBodyText"><span style="FONT-SIZE: 15pt; FONT-FAMILY: 'Arial Bold'; COLOR: windowtext">Category 
+Search Rules</span><span style="FONT-SIZE: 15pt; FONT-FAMILY: 'Arial Bold'; COLOR: windowtext"></span></p>
+<p class="MsoBodyText"><span style="COLOR: windowtext">When searching for 
+categories from the KMC search box in the Categories page the following rules 
+apply: </span><span style="COLOR: windowtext"></span></p>
+<p class="MsoListBullet" style="MARGIN-LEFT: 18pt; TEXT-INDENT: -17.85pt; tab-stops: 37.7pt"><span style="COLOR: windowtext"><span style="FONT-FAMILY: Verdana">•</span><span style="FONT-FAMILY: Symbol; VISIBILITY: hidden">      
+</span></span><span style="COLOR: windowtext">The Kaltura search engine will 
+match the search term within the KMC search box against the following <a name="Category_attrributes" id="Category_attrributes"></a>category attributes:</span><span style="COLOR: windowtext"></span></p>
+<p class="MsoListContinue"><span style="COLOR: windowtext">Category Name, Category 
+ID, Category Tags, Category Description, Category Reference ID, any Category 
+custom data fields of type: text that was set to be searchable.</span><span style="COLOR: windowtext"></span></p>
+<p class="MsoListBulletCxSpFirst" style="MARGIN-LEFT: 37.7pt; TEXT-INDENT: -17.85pt; tab-stops: 37.7pt"><span style="COLOR: windowtext"><span style="FONT-FAMILY: Verdana">•</span><span style="FONT-FAMILY: Symbol; VISIBILITY: hidden">      
+</span></span><span style="COLOR: windowtext">Search criteria may include 
+alphanumeric as well as the following special characters such as: `, ~, !, @, #, 
+$, %, ^, &amp;, *, (, ), -, _, =, +, [, ], {, }, ;, :, ', \, |, /, ?, &lt;, 
+&gt;</span><span style="COLOR: windowtext"></span></p>
+<p class="MsoListBulletCxSpMiddle" style="MARGIN-LEFT: 37.7pt; TEXT-INDENT: -17.85pt; tab-stops: 37.7pt"><span style="COLOR: windowtext"><span style="FONT-FAMILY: Verdana">•</span><span style="FONT-FAMILY: Symbol; VISIBILITY: hidden">      
+</span></span><span style="COLOR: windowtext">The </span><b><span style="COLOR: windowtext">space character</span></b><span style="COLOR: windowtext"> is treated as an AND search operand. For example, 
+searching for</span><b><span style="COLOR: windowtext"> hello 
+world</span></b><span style="COLOR: windowtext"> will result with all categories 
+that include </span><b><u><span style="COLOR: windowtext">both</span></u></b><span style="COLOR: windowtext"> 
+the word </span><b><span style="COLOR: windowtext">hello</span></b><span style="COLOR: windowtext"> and the word </span><b><span style="COLOR: windowtext">world</span></b><span style="COLOR: windowtext"> in 
+one of the searchable category attributes.</span><span style="COLOR: windowtext"></span></p>
+<p class="MsoListBulletCxSpMiddle" style="MARGIN-LEFT: 37.7pt; TEXT-INDENT: -17.85pt; tab-stops: 37.7pt"><span style="COLOR: windowtext"><span style="FONT-FAMILY: Verdana">•</span><span style="FONT-FAMILY: Symbol; VISIBILITY: hidden">      
+</span></span><span style="COLOR: windowtext">The </span><b><span style="COLOR: windowtext">comma character</span></b><span style="COLOR: windowtext"> is treated as an OR search operand. For example, 
+searching for </span><b><span style="COLOR: windowtext">hello, 
+world</span></b><span style="COLOR: windowtext"> will result with all categories 
+that include </span><b><u><span style="COLOR: windowtext">either</span></u></b><span style="COLOR: windowtext"> 
+the word </span><b><span style="COLOR: windowtext">hello</span></b><span style="COLOR: windowtext"> or the word </span><b><span style="COLOR: windowtext">world</span></b><span style="COLOR: windowtext"> in 
+one of the searchable category attributes.</span><span style="COLOR: windowtext"></span></p>
+<p class="MsoListBulletCxSpMiddle" style="MARGIN-LEFT: 37.7pt; TEXT-INDENT: -17.85pt; tab-stops: 37.7pt"><span style="COLOR: windowtext"><span style="FONT-FAMILY: Verdana">•</span><span style="FONT-FAMILY: Symbol; VISIBILITY: hidden">      
+</span></span><span style="COLOR: windowtext">The </span><b><span style="COLOR: windowtext">! character</span></b><span style="COLOR: windowtext"> 
+is treated as an AND NOT search operand. For example, searching 
+for</span><b><span style="COLOR: windowtext"> hello ! world</span></b><span style="COLOR: windowtext"> should result with all categories that include the 
+word </span><b><span style="COLOR: windowtext">hello</span></b><span style="COLOR: windowtext">, but do not include the word </span><b><span style="COLOR: windowtext">world</span></b><span style="COLOR: windowtext">.The ! 
+at the beginning of the search criteria is not supported within this AND NOT 
+operant context.  When searching for actual words that start/end with the ! 
+character, the ! character should be escapes using a backslash . For example, if 
+you want to search for categories that include the word </span><b><span style="COLOR: windowtext">!hello</span></b><span style="COLOR: windowtext"> 
+or</span><b><span style="COLOR: windowtext"> hello</span></b><span style="COLOR: windowtext">! you should enter the following terms within the KMC 
+search box: </span><b><span style="COLOR: windowtext">\!hello</span></b><span style="COLOR: windowtext"> or</span><b><span style="COLOR: windowtext"> 
+hello\!</span></b><span style="COLOR: windowtext"></span></p>
+<p class="MsoListBulletCxSpLast" style="MARGIN-LEFT: 37.7pt; TEXT-INDENT: -17.85pt; tab-stops: 37.7pt"><span style="COLOR: windowtext"><span style="FONT-FAMILY: Verdana">•</span><span style="FONT-FAMILY: Symbol; VISIBILITY: hidden">      
+</span></span><span style="COLOR: windowtext">The </span><b><span style="COLOR: windowtext">“” characters</span></b><span style="COLOR: windowtext"> are treated as an EXACT MATCH search operand. For 
+example, searching for "</span><b><span style="COLOR: windowtext">hello 
+world</span></b><span style="COLOR: windowtext">" will result with all 
+categories that include the exact</span><b><span style="COLOR: windowtext"> 
+hello world</span></b><span style="COLOR: windowtext"> phrase in one of the 
+searchable category attributes.</span><span style="COLOR: windowtext"></span></p>
+<p class="Procedure" style="tab-stops: 36.0pt"><span style="COLOR: windowtext"><img title="*" border="0" alt="*" src="../ImagesExt/image18_82.png" /></span><span style="FONT-WEIGHT: normal; COLOR: windowtext"> </span><span style="COLOR: windowtext">To search </span><span style="COLOR: windowtext">through categorie</span><span style="COLOR: windowtext">s</span><span style="COLOR: windowtext">  
+</span><span style="COLOR: windowtext"></span></p>
+<p class="MsoListNumberCxSpFirst" style="MARGIN-LEFT: 36pt; tab-stops: 36.0pt"><b><span style="COLOR: black">1.  </span></b><span style="COLOR: windowtext">Go to 
+the Content tab and select the Categories tab.</span><span style="COLOR: windowtext"></span></p>
+<p class="MsoListNumberCxSpLast" style="MARGIN-LEFT: 36pt; tab-stops: 36.0pt"><b><span style="COLOR: black">2.  </span></b><span style="COLOR: windowtext">Enter 
+your search criteria and click the magnifying icon on the right, or press 
+Enter.  </span><span style="COLOR: windowtext"></span></p>
+<p class="MsoListContinue"><span style="COLOR: windowtext">The search </span><span style="COLOR: windowtext">is applied</span><span style="COLOR: windowtext"> on 
+</span><span style="COLOR: windowtext">the</span><span style="COLOR: windowtext"> category or the</span><span style="COLOR: windowtext"> </span><span style="COLOR: windowtext"><a class="topic-link" href="searchingthroughcategories.htm#Category_attrributes">category 
+attributes</a></span><span style="COLOR: windowtext"> selected.</span><span style="COLOR: windowtext"> F</span><span style="COLOR: windowtext">or canned 
+lists</span><span style="COLOR: windowtext">, </span><span style="COLOR: windowtext">use</span><span style="COLOR: windowtext"> the 
+</span><span style="COLOR: windowtext">Categories </span><span style="COLOR: windowtext">Metadata Filters. </span><span style="COLOR: windowtext"></span></p><span id="related-topics"></span></body></html>

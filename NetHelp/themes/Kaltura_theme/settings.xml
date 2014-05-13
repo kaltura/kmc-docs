@@ -4,7 +4,7 @@
     <name>Kaltura_theme</name>
     <predefined>false</predefined>
     <baseTheme>Tabs</baseTheme>
-    <baseVersion>1.10.5</baseVersion>
+    <baseVersion>1.11.3</baseVersion>
   </theme>
   <pageHeader>
     <logoImage>images/kaltura_logo_transparent_large.png</logoImage>

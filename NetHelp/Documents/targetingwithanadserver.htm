@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml"><head><title>Targeting with an Ad Server</title>
+<meta charset="utf-8" /><link rel="stylesheet" type="text/css" href="../LinksExt/Kaltura_Management_Console_(KMC)_User_Manual_Iris_final4.css" />
+<script src="../js/nethelp.redirector.js" type="text/javascript"></script>
+<link rel="prev" href="companionadsinflash.htm" /><link rel="next" href="targetingperviewer.htm" />
+<meta name="Generator" content="ComponentOne Doc-To-Help v.2013.1.0.832" />
+</head>
+<body data-c1-topic-id="baaa4f19-2655-4bcb-9999-d69d036bd567">
+<h3><span style="COLOR: windowtext">Targeting with an Ad Server</span><span style="COLOR: windowtext"></span></h3>
+<p class="MsoBodyText"><span style="COLOR: windowtext">While ad targeting is 
+performed within the ad server, Kaltura’s VAST advertising module is designed to 
+pass all the relevant targeting information to the ad server.</span><span style="COLOR: windowtext"></span></p>
+<p class="MsoBodyText"><span style="COLOR: windowtext">Targeting information can 
+be set in several levels:</span><span style="COLOR: windowtext"></span></p>
+<p class="MsoListBulletCxSpFirst" style="MARGIN-LEFT: 37.7pt; TEXT-INDENT: -17.85pt; tab-stops: 37.7pt"><span style="COLOR: windowtext"><span style="FONT-FAMILY: Verdana">•</span><span style="FONT-FAMILY: Symbol; VISIBILITY: hidden">      
+</span></span><span style="COLOR: windowtext">Targeting per player and ad 
+slot</span><span style="COLOR: windowtext"> – you can add additional key value 
+pairs within the adtag URL. The ad server will use these for targeting. 
+</span><span style="COLOR: windowtext"></span></p>
+<p class="MsoListBulletCxSpLast" style="MARGIN-LEFT: 37.7pt; TEXT-INDENT: -17.85pt; tab-stops: 37.7pt"><span style="COLOR: windowtext"><span style="FONT-FAMILY: Verdana">•</span><span style="FONT-FAMILY: Symbol; VISIBILITY: hidden">      
+</span></span><span style="COLOR: windowtext">Targeting per content item 
+</span><span style="COLOR: windowtext">- The Kaltura VAST module supports 
+dynamic pulling of metadata from the content item, and passes it to the ad 
+server.</span><span style="COLOR: windowtext"> </span><span style="COLOR: windowtext">For example for targeting a specific content 
+category</span><span style="COLOR: windowtext">.</span><span style="COLOR: windowtext"></span></p>
+<p class="Procedure" style="tab-stops: 36.0pt"><span style="COLOR: windowtext"><img title="*" border="0" alt="*" src="../ImagesExt/image18_131.png" /></span><span style="FONT-WEIGHT: normal; COLOR: windowtext"> </span><span style="COLOR: windowtext">To target information</span><span style="COLOR: windowtext"></span></p>
+<p class="MsoListNumberCxSpFirst" style="MARGIN-LEFT: 36pt; tab-stops: 36.0pt"><b><span style="COLOR: black">1.  </span></b><span style="COLOR: windowtext">Drag 
+content items into the category within the KMC</span><span style="COLOR: windowtext">.</span><span style="COLOR: windowtext"><br /></span><span style="COLOR: windowtext"><img border="0" src="../ImagesExt/image18_234.png" alt="" /></span><span style="COLOR: windowtext"></span></p>
+<p class="MsoListNumberCxSpMiddle" style="MARGIN-LEFT: 36pt; tab-stops: 36.0pt"><b><span style="COLOR: black">2.  </span></b><span style="COLOR: windowtext">Define 
+the additional parameter in your ad serve</span><span style="COLOR: windowtext">r. For example</span><span style="COLOR: windowtext">,</span><span style="COLOR: windowtext"> in OpenX 
+set</span><span style="COLOR: windowtext"> t</span><span style="COLOR: windowtext">he “category” parameter </span><span style="COLOR: windowtext">through “Site </span><span style="COLOR: windowtext">- 
+</span><span style="COLOR: windowtext">Variable</span><span style="COLOR: windowtext">”</span><span style="COLOR: windowtext"><img border="0" src="../ImagesExt/image18_235.png" alt="" /></span><span style="COLOR: windowtext"></span></p>
+<p class="MsoListNumberCxSpLast" style="MARGIN-LEFT: 36pt; tab-stops: 36.0pt"><b><span style="COLOR: black">3.  </span></b><span style="COLOR: windowtext">Add 
+category template </span><span style="COLOR: windowtext">category={mediaProxy.entry.categories}</span><span style="COLOR: windowtext"> into the AdTag URL. At runtime this template will be 
+populated with the actual values for each video played. </span><span style="COLOR: windowtext"><img src="../ImagesExt/image18_236.png" alt="" /></span><span style="COLOR: windowtext"></span></p>
+<p class="MsoBodyText"><span class="BodyTextChar"><span style="COLOR: windowtext">The following targeting templates are available for 
+targeting:</span></span></p>
+<p class="MsoListBulletCxSpFirst" style="MARGIN-LEFT: 37.7pt; TEXT-INDENT: -17.85pt; tab-stops: 37.7pt"><span style="COLOR: windowtext"><span style="FONT-FAMILY: Verdana">•</span><span style="FONT-FAMILY: Symbol; VISIBILITY: hidden">      
+</span></span><span style="COLOR: windowtext">category={mediaProxy.entry.categories}</span><span style="COLOR: windowtext"></span></p>
+<p class="MsoListBulletCxSpMiddle" style="MARGIN-LEFT: 37.7pt; TEXT-INDENT: -17.85pt; tab-stops: 37.7pt"><span style="COLOR: windowtext"><span style="FONT-FAMILY: Verdana">•</span><span style="FONT-FAMILY: Symbol; VISIBILITY: hidden">      
+</span></span><span style="COLOR: windowtext">tags</span><span class="BodyTextChar"><span style="COLOR: windowtext">={mediaProxy</span></span><span style="COLOR: windowtext">.entry.tags}</span><span style="COLOR: windowtext"></span></p>
+<p class="MsoListBulletCxSpMiddle" style="MARGIN-LEFT: 37.7pt; TEXT-INDENT: -17.85pt; tab-stops: 37.7pt"><span style="COLOR: windowtext"><span style="FONT-FAMILY: Verdana">•</span><span style="FONT-FAMILY: Symbol; VISIBILITY: hidden">      
+</span></span><span style="COLOR: windowtext">name={mediaProxy.entry.name}</span><span style="COLOR: windowtext"></span></p>
+<p class="MsoListBulletCxSpLast" style="MARGIN-LEFT: 37.7pt; TEXT-INDENT: -17.85pt; tab-stops: 37.7pt"><span style="COLOR: windowtext"><span style="FONT-FAMILY: Verdana">•</span><span style="FONT-FAMILY: Symbol; VISIBILITY: hidden">      
+</span></span><span style="COLOR: windowtext">id={mediaProxy.entry.id}</span><span style="COLOR: windowtext"></span></p><span id="related-topics"></span></body></html>
