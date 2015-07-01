@@ -1,0 +1,30 @@
+"# Detailed information on the categories CSV, including  relevant use cases, complete schema description and examples,",,,,,
+# is available here:  http://knowledge.kaltura.com/categories-csv-usage-and-schema-description ,,,,,
+# Note: The population of the category's entitlement settings is enabled only in accounts that are configured to support end-user entitlements and under categories that were set to have entitlement settings.,,,,,
+# The CSV should have the following fields for each user record. separated by comma:,,,,,
+# The following special characters can be populated within text fields via the CSV file : - _ % ? . :  ;  &  > @ ! $ ^ ~  = [ ] { } |  <,,,,,
+"# Important! Comma (e.g. "","") cannot be used in the ""Name"" value of the category.",,,,,
+"# --  action ? Optional -   Kaltura?s numeric value for the action to apply on a specific category. Supported action types and their numeric values: values: 1- add(default), 2- update, 3- delete, 6- add or update. Default = add",,,,,
+# --  name -  Mandatory for add action -  The name of the category, ,,,,
+# --  relativePath - Optional -  the category-tree path in which the category is located or should be located. Each category level within the path should be separated by the '>' character.,,,,,
+# -- categoryId - Optional - The kaltura internal and unique identifier of the category. (for update actions),,,,,
+# -- referenceId - Optional -  A possible identifier of the category based on an identifier from an external system that can relate the category to an external entity it represents or related to,,,,,
+# -- tags ? Optional - The tags to be added to the category,,,,,
+# -- description - Optional - A description of the category,,,,,
+# -- custom metadata  (Category object) - Optional -  field name should be set according to the following format: metadata::[metadataProfileSystemName]::[metadataProfileFieldSystemName],,,,,
+# Entitlement Settings: ,,,,,
+"# --  privacy - Optional - The numeric value of the Content Privacy option to set for the category as part of its entitlements settings. Supported values: 1= No Restriction(default), 2 =Requires Authentication, 3= Private",,,,,
+"# --  appearInList - Optional -  The numeric value of the Category Listing option to set for the category as part of its entitlements settings. Supported values: 1= No Restriction(default),  3= Private",,,,,
+"# --  contributionPolicy - Optional -  The numeric value of the Contribution Policy option (Who can add content to the category? )to set for the category as part of its entitlements settings. Supported values: 1= No Restriction(default),  2= Private",,,,,
+"# --  inheritanceType  - Optional - The numeric value of user permissions inheritance option (Inherit End-User Specific Permissions from Parent? . Supported values:  1=yes,  2=no (default)",,,,,
+# --  owner -  Optional -  The userId of the category's owner.,,,,,
+"# --  defaultPermissionLevel - Optional - The numeric value of the default permission Level the end-users should be granted by default for the category. Supported values:   0=Manager, 1=Moderator, 2=Contributor,3=Member (default). ",,,,,
+"# --  moderation - (Optional) Indicates whether content should be moderated in the application before it is added to the category. Supported values: 0=No (default),1=Yes",,,,,
+*action,name,relativePath,description,tags,referenceId
+1,CSV Sample Root Category,,This is the root category of the categories CSV  sample,"categories,csv, sample, root",sample1
+1,CSV Sample Sub Category1 ,CSV Sample Root Category,This is a 1st level sub category of the categories CSV  sample,"categories,csv, sample, level2",subcategory1
+1,CSV Sample Sub Category2,CSV Sample Root Category,This is a 1st level sub category of the categories CSV  sample,"categories,csv, sample, level2",subcategory2
+1,CSV Sample Sub Category11,CSV Sample Root Category>CSV Sample Sub Category1,This is a 2nd level sub category of the categories CSV  sample,"categories,csv, sample, level3",subcategory11
+1,CSV Sample Sub Category12,CSV Sample Root Category>CSV Sample Sub Category1,This is a 2nd level sub category of the categories CSV  sample,"categories,csv, sample, level3",subcategory12
+1,CSV Sample Sub Category21,CSV Sample Root Category>CSV Sample Sub Category2,This is a 2nd level sub category of the categories CSV  sample,"categories,csv, sample, level3",subcategory21
+1,CSV Sample Sub Category22,CSV Sample Root Category>CSV Sample Sub Category2,This is a 2nd level sub category of the categories CSV  sample,"categories,csv, sample, level3",subcategory22
