@@ -1,0 +1,2 @@
+What is the max number of values allowed for a field of custom metadata? 
+http://knowledge.kaltura.com/node/1232
